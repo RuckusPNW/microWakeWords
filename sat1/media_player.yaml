@@ -5,7 +5,6 @@ audio_dac:
   - platform: tas2780
     id: speaker_dac
     address: 0x3F
-    amp_level: 16
   - platform: satellite1
     id: dac_proxy
     speaker_dac: speaker_dac
